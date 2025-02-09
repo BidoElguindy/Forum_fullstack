@@ -1,0 +1,35 @@
+.yourthreads {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    /* height: 100vh; */
+    padding: 20px;
+    position: relative;
+    /* overflow: hidden; */
+}
+
+.yourthreadstable {
+    border: 1px solid lightgrey;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.yourthreadstable tr {
+    border: 1px solid rgb(287,207,287);
+    border-radius: 5px;
+}
+.yourthreadstable tr th{
+    padding: 10px 20px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: rgb(54, 53, 53);;
+    color: rgba(218, 171, 255);
+}
+
+
+
+

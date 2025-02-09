@@ -1,0 +1,248 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgb(218, 171, 255);
+  background-color: black;
+
+  
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/*
+body{
+
+  background-image: url("/Users/bido/Documents/License/L3/S2/Techno de Web/Forum/src/pictures/background12.jpg") ;
+    
+  background-size:cover; 
+  background-position: center;
+  }
+
+*/
+
+/* inputs for the login and signin */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 10px 16px;
+  margin: 4px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: rgb(113, 191, 183);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  transition: transform .2s; /* Animation */
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+  transform: scale(1.05);
+  
+}
+
+/* Extra style for the secondary button (red) */
+.secondary {
+  width: 100%;
+  padding: auto;
+  background-color: rgb(157, 120, 185);
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+/* Avatar image */
+img.avatar {
+  width: 40%;
+  border-radius: 100%;
+}
+
+form{
+  border: 3px solid rgba(218, 171, 255);
+  width : 35%;
+  margin : auto;
+  text-align:left;
+
+}
+
+
+
+/* Add padding to containers */
+.container_signup {
+  padding: 2px 16px;
+ 
+}
+
+.container_login{
+  padding: 2px 16px;
+}
+
+/*navbar "navmain" */
+.navmain {
+  background-color:rgb(0, 0, 0);
+  display:inline-flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  gap:2rem;
+  padding: 0 1rem;
+  outline: auto;
+}
+
+.navmain a {
+  color: rgba(218, 171, 255);
+}
+.navmain a:hover {
+  color: rgb(113, 191, 183);
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.navmain ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display:flex;
+  gap:1rem;
+  
+}
+
+.navmain li {
+  display: inline;
+}
+
+.navmain input[type=text] {
+  width: 230px;
+  border-radius: 24px;
+  border: none;
+  background-position: 10px 10px ; 
+  background-repeat: no-repeat;
+  transition: width 0.4s ease-in-out;
+}
+
+.navmain input[type=text]:focus {
+  width: 100%;
+  outline: rgb(0, 0, 0);
+  background-color: rgb(19, 19, 19);
+  
+
+}
+
+/*STTF site title for all the pages*/
+.site-title{
+  font-size: 2rem;
+  font-family: "Copperplate"
+  
+}
+/*remove the line under the Title STTF*/
+.navmain :link{
+  text-decoration:none ;
+}
+/* Create a stitch*/
+
+
+.form_homepage{
+  
+  padding : 40px 30px;
+  text-align:left;
+  outline: auto;
+  margin: 40px 0px;  
+}
+
+.form_homepage input[type=text]{
+  width: 100%;
+  padding: 10px 16px;
+  margin: 6px 0px;
+  display: inline-block;
+  border: none;
+  box-sizing: border-box;
+  outline: rgb(0, 0, 0);
+  font-size: 1rem;
+}
+
+.desc_homepage{
+  background-color: rgb(19,18,18);
+  border: solid rgb(19,18,18);
+  outline: rgb(0, 0, 0);
+  font-size: 0,5rem;
+}
+
+.form_homepage label{
+  font-size: 2rem;
+  font-family: "Copperplate";
+}
+
+select{
+  border:none;
+  outline: black;
+}
+
+.stitch__container{
+  width: fit-content;
+}
+
+.stitch {
+  border: 3px solid rgba(218, 171, 255);
+  display: inline-flex;
+
+}
+
+.userprofile{
+  display: flex;
+  flex-direction: column ;
+}
+
+.userprofilein{
+  display: flex; 
+  width: 100%;
+  justify-content: center;
+  margin-top: 10vh;
+  gap: 20px;
+}
+
+.userprofile .userprofilein .left{
+  width: 20%;
+  /*background-color: aqua;*/
+  border: 3px solid rgba(218, 171, 255);
+  border-radius: 5px; 
+  min-height: 50vh; 
+}
+
+.userprofile .userprofilein .right{
+  width: 60%;
+  /*background-color: aqua;*/
+  border: 3px solid rgba(218, 171, 255);
+  border-radius: 5px; 
+  min-height: 50vh; 
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .login {
+    width: 100%;
+  }
+}
+
+/* Colors in use  secondary color : rgb(113, 191, 183)-> blue
+primary color : rgb(157, 120, 185) -> purple
+ */
